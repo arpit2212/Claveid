@@ -1,12 +1,13 @@
 import React from "react";
 
 
+
 const Landingheader = () => {
   return (
     <div 
       className="relative bg-black text-white flex items-center justify-center h-screen overflow-hidden"
       style={{
-        backgroundImage: `url("../../../src/assets/images/Header/logo.png")`,
+        backgroundImage: `url(/logo.png)`,
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
