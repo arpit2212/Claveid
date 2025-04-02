@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/images/Header/Mainlogo.png";
+import logo from "../../src/assets/images/Header/Mainlogo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -107,26 +107,21 @@ const Header = () => {
             href="/Event"
             className="text-gray-600 hover:text-[#3646F5] border border-black px-4 py-2"
           >
-            Events
+           Password Checker
           </a>
           <a
             href="/Hackathon"
             className="text-gray-600 hover:text-[#3646F5] border border-black px-4 py-2"
           >
-            Hackathon
+            Password Generator
           </a>
           <a
             href="/project"
             className="text-gray-600 hover:text-[#3646F5] border border-black px-4 py-2"
           >
-            Project
+            FAQ
           </a>
-          <a
-            href="/FindPartner"
-            className="text-gray-600 hover:text-[#3646F5] border border-black px-4 py-2"
-          >
-            Find Partner
-          </a>
+         
           
           <a
             href="/ContactUs"

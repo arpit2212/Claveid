@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "../../assets/images/Header/logo.png"; // Import the background image
+import backgroundImage from "../../../src/assets/images/Header/logo.png"; // Import the background image
 
 const Landingheader = () => {
   return (
