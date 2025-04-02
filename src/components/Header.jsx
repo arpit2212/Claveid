@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../src/assets/images/Header/Mainlogo.png";
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +15,7 @@ const Header = () => {
         <div className="flex items-center">
           <img
             onClick={() => (window.location.href = "/")}
-            src={logo}
+            src="../../src/assets/images/Header/Mainlogo.png"
             alt="HackVerse Logo"
             className="h-8 w-auto"
           />

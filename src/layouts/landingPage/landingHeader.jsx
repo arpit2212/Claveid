@@ -1,12 +1,12 @@
 import React from "react";
-import backgroundImage from "../../../src/assets/images/Header/logo.png"; // Import the background image
+
 
 const Landingheader = () => {
   return (
     <div 
       className="relative bg-black text-white flex items-center justify-center h-screen overflow-hidden"
       style={{
-        backgroundImage: `url(${backgroundImage})`,
+        backgroundImage: `url("../../../src/assets/images/Header/logo.png")`,
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
