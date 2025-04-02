@@ -13,12 +13,12 @@ const Header = () => {
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <img
+          {/* <img
             onClick={() => (window.location.href = "/")}
-            src="../../src/assets/images/Header/Mainlogo.png"
+            src=""
             alt="HackVerse Logo"
             className="h-8 w-auto"
-          />
+          /> */}
           <span onClick={() => (window.location.href = "/")} className="ml-2 font-black text-3xl bg-gradient-to-r from-[#000000] via-[#314481] to-[#1e29c4] text-transparent bg-clip-text tracking-wide">ClaveID</span>
         </div>
 
